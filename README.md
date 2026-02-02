@@ -1,24 +1,98 @@
-# ESP32 & Arduino Embedded Projects
+# ESP32 Multi-Function Smart Device
+
+This project is a multi-functional embedded system developed on the ESP32
+platform. It combines multiple interactive applications into a single
+menu-driven interface using an OLED display and physical buttons.
+
+The system is designed to demonstrate real-world embedded systems concepts
+such as hardware–software integration, state management, timing control,
+and user interaction on resource-constrained devices.
+
+---
+
+## 🧩 Features
+
+### 📋 Menu-Based User Interface
+- OLED (SH1106) based graphical menu
+- Button-controlled navigation (UP, DOWN, LEFT, RIGHT, SELECT)
+- Modular application switching
+
+### 🐍 Snake Game
+- Grid-based movement system
+- Collision detection (walls & self)
+- Score and high-score tracking
+- Adjustable game update interval
+
+### 🧠 Reflex Game
+- Reaction-time based gameplay
+- Direction-based user input validation
+- Best reaction time tracking
+- Timer-controlled game session
+
+### 🌡️ Weather Monitor
+- Temperature and humidity measurement using DHT11
+- Real-time sensor data display
+
+### ⚙️ Servo Motor Control
+- Interactive angle control (0–180°)
+- Visual progress bar representation
+- ESP32 PWM servo control
+
+### 🧮 Calculator
+- Button-based virtual keypad
+- Expression parsing with operator precedence
+- Supports +, −, ×, ÷ operations
+
+### ⏱️ Timer / Countdown
+- Minute & second based configuration
+- Real-time countdown display
+- Audible alarm using buzzer
+- Restart and stop functionality
+
+### 🔘 Button Test & Calibration
+- Live button state visualization
+- Hardware input validation tool
+
+---
+
+## 🛠️ Hardware Used
+- ESP32
+- SH1106 OLED Display (I2C)
+- DHT11 Temperature & Humidity Sensor
+- Servo Motor
+- Buzzer
+- 5× Push Buttons
+
+---
+
+## 🧠 Technical Highlights
+- State-based application control
+- Efficient use of `millis()` for timing
+- Modular function design
+- Grid-based game logic
+- Embedded input handling with debouncing
+- Resource-aware UI rendering
+
+---
+
+## 🧪 Libraries Used
+- Arduino Core for ESP32
+- U8g2 (OLED graphics)
+- DHT Sensor Library
+- ESP32Servo
+
+---
 
 ## 🎯 Purpose
-This repository demonstrates my hands-on experience with
-ESP32 and Arduino platforms, focusing on embedded systems,
-hardware-software integration, and basic IoT concepts.
+This project was developed to improve practical embedded systems skills
+beyond academic coursework and to gain hands-on experience in designing
+interactive, real-time microcontroller applications.
 
-## 🛠️ What I Worked On
-- ESP32 GPIO control and peripheral usage
-- Sensor data acquisition
-- OLED display integration
-- Serial & I2C communication
-- Power management basics
+---
 
-## 🚀 Why This Project Matters
-These projects were developed as part of my learning process
-in embedded systems engineering and helped me gain practical
-experience beyond coursework.
+## 👤 Author
+**Volkan Özdemir**  
+Electrical & Electronics Engineering Student  
 
-## 🧠 Skills Demonstrated
-- Embedded C / Arduino framework
-- Debugging hardware-related issues
-- Reading datasheets & implementing modules
-- Modular project structuring
+🔗 GitHub: https://github.com/Wolynx  
+🔗 LinkedIn: https://www.linkedin.com/in/ozdemirvolkantech
