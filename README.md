@@ -9,6 +9,12 @@ such as hardware–software integration, state management, timing control,
 and user interaction on resource-constrained devices.
 
 ---
+👤 Author
+Volkan Özdemir
+Electrical & Electronics Engineering Student
+
+🔗 GitHub: https://github.com/Wolynx
+🔗 LinkedIn: https://www.linkedin.com/in/ozdemirvolkantech
 
 ## 🧩 Features
 
@@ -89,10 +95,3 @@ beyond academic coursework and to gain hands-on experience in designing
 interactive, real-time microcontroller applications.
 
 ---
-
-## 👤 Author
-**Volkan Özdemir**  
-Electrical & Electronics Engineering Student  
-
-🔗 GitHub: https://github.com/Wolynx  
-🔗 LinkedIn: https://www.linkedin.com/in/ozdemirvolkantech
